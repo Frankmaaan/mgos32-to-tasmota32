@@ -7,12 +7,12 @@
 
 mkdir output
 
-tasmota_version="12.5.0"
+tasmota_version="11.1.0"
 
-curl -o build-files/tasmota32.bin http://ota.tasmota.com/tasmota32/release-12.5.0/tasmota32.bin
-curl -o build-files/tasmota32solo1.bin http://ota.tasmota.com/tasmota32/release-12.5.0/tasmota32solo1.bin
-curl -o build-files/tasmota32-lvgl.bin http://ota.tasmota.com/tasmota32/release-12.5.0/tasmota32-lvgl.bin
-curl -o build-files/tasmota32c3.bin http://ota.tasmota.com/tasmota32/release-12.5.0/tasmota32c3.bin
+curl -o build-files/tasmota32.bin http://ota.tasmota.com/tasmota32/release-11.1.0/tasmota32.bin
+curl -o build-files/tasmota32solo1.bin http://ota.tasmota.com/tasmota32/release-11.1.0/tasmota32solo1.bin
+curl -o build-files/tasmota32-lvgl.bin http://ota.tasmota.com/tasmota32/release-11.1.0/tasmota32-lvgl.bin
+curl -o build-files/tasmota32c3.bin http://ota.tasmota.com/tasmota32/release-11.1.0/tasmota32c3.bin
 
 generatezip () {
 
