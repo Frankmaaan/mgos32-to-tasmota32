@@ -127,6 +127,8 @@ printf "\nDone mgos32-to-tasmota32-$shelly_device.zip\n\n"
 
 }
 
+generatezip "PlusPlugS" "tasmota32solo1.bin" "fs-384.img" 1 && exit 0
+
 ShellyG3=( S1G3 )
 for i in "${ShellyG3[@]}"
 do
